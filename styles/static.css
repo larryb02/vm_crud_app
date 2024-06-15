@@ -1,0 +1,7 @@
+.body{
+    display: block;
+}
+.navbar{
+    font-size: 20px; 
+    display: flex; 
+}
