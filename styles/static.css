@@ -1,7 +1,33 @@
-.body{
+body{
     display: block;
+    font-family: Arial, sans-serif;
+    border: 2px solid;
+    border-color: red;
 }
 .navbar{
     font-size: 20px; 
-    display: flex; 
+    display: flex;
+    border: 2px solid;
+    border-color: red;
 }
+.right-side{
+    /* border: 2px solid;
+    border-color: red; */
+    margin-left: auto;
+}
+.left-side{
+    display: flex;
+    border: 2px solid;
+    border-color: red;
+    padding: 5px;
+    /* margin: 0px 5px; */
+}
+.menu{
+    margin: 0px 5px;
+}
+.home-link{
+    margin: 0px 5px;
+}
+
+
+
