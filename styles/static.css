@@ -1,13 +1,13 @@
 body{
     display: block;
     font-family: Arial, sans-serif;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-color: red;
 }
 .navbar{
     font-size: 20px; 
     display: flex;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-color: red;
 }
 .right-side{
@@ -17,7 +17,7 @@ body{
 }
 .left-side{
     display: flex;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-color: red;
     padding: 5px;
     /* margin: 0px 5px; */
@@ -27,6 +27,17 @@ body{
 }
 .home-link{
     margin: 0px 5px;
+}
+.server-list{
+    /* padding: 100px 0px; */
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    /* float: left;
+    width: 50% */
+}
+table thead th{
+    border-bottom: 1px solid #d1d1d1;
 }
 
 
