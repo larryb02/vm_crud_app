@@ -1,0 +1,7 @@
+TODO (Not in any specific order):
+1. Add Menu Options
+    1a. Host Menu Option
+2. Create Host View Page
+3. Dynamically render text for "Host" table
+    3a. add a limit to data generation (should only grab 'n' number of hosts)
+
