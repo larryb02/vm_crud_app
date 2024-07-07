@@ -1,7 +1,15 @@
 TODO (Not in any specific order):
-1. Add Menu Options
-    1a. Host Menu Option
+1. Create responsive buttons
+    - Menu Pane
+        - for now just create empty pane, will add items later
+    - Account Info button
+        - if signed in show a menu with basic info and a few buttons
+        - if signed out show a menu telling user to sign in
 2. Create Host View Page
-3. Dynamically render text for "Host" table
+    2a. Also create a detailed hosts page
+        - idea is once on this page if user clicks on a host direct them to a detailed view of these hosts
+In Progress:
+3. Dynamically render text for "Host" table 
     3a. add a limit to data generation (should only grab 'n' number of hosts)
+    - (eventually will change to "All" tables)
 

@@ -7,19 +7,25 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <!-- <meta name="color-scheme" content="dark light"/> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../styles/static.css">
-    <script src="../homePage.js"></script>
+    <link rel="stylesheet" href="../styles/home.css">
 </head>
 
 <body>
     <header class="navbar">
         <div class="left-side">
-            <div class="menu">
-                <button class="main-menu-button">
-                    <i class="fa fa-bars">
-                    </i>
-                </button>
-            </div>
+            
+            <div class="sidebar"> 
+                <header class="sidebar-header">
+                    <button class="sidebar-button"> <!-- rename to sidebar-button -->
+                        <i class="fa fa-bars">
+                        </i>
+                    </button>
+                </header>
+                <ul>
+                    <li>Home</li>
+                    <li>Hosts</li>
+                </ul>
+            </div> 
             <div class="home-link">
                 <a href="./home.html">Home</a>
             </div>
@@ -33,17 +39,17 @@
     <div class="main-body">
         <div class="search-bar">
             <input type="text" id="host-search-bar" placeholder="...">
-            <!-- <button></button> -->
+            <button></button>
         </div>
         <div class="dashboard">
-            <!-- cluster of boxes/menus/graphs here showing some data -->
+             cluster of boxes/menus/graphs here showing some data 
             <div class="widget server-list">
                 <table class="host-list">
                     <thead>
                         <tr>
                             <th class="table-header">Name</th>
-                            <!-- <th class="table-header">IP</th>
-                            <th class="table-header">Owner</th> -->
+                            <th class="table-header">IP Address</th>
+                            <th class="table-header">Owner</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -53,7 +59,6 @@
             </div>
         </div>
     </div>
-
 </body>
-
+<script src="../controllers/home.js"></script>
 </html>

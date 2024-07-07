@@ -1,11 +1,12 @@
 # vm_crud_app
 ### Goal/Purpose
-Since I am regularly working with virtualization software, I decided I want to create my own version of what Foreman has. 
+Since I am regularly working with lifecycle management software (VMWare VCenter, RedHat Satellite), I decided I want to create my own version of what [Foreman](https://theforeman.org/) has.  
 
 ## Steps:
 ### 1. Create webserver/ui
 - Create webpages
-    - home page: general view of all hosts, 
+    - home page: dashboard 
+        - general view of all hosts, and other data as functionality gets extended
     - detailed host view page, 
     - login page, 
     - account info page
