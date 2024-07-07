@@ -13,19 +13,10 @@
 <body>
     <header class="navbar">
         <div class="left-side">
-            
-            <div class="sidebar"> 
-                <header class="sidebar-header">
-                    <button class="sidebar-button"> <!-- rename to sidebar-button -->
-                        <i class="fa fa-bars">
-                        </i>
-                    </button>
-                </header>
-                <ul>
-                    <li>Home</li>
-                    <li>Hosts</li>
-                </ul>
-            </div> 
+            <button class="sidebar-button"> <!-- rename to sidebar-button -->
+                <i class="fa fa-bars">
+                </i>
+            </button>
             <div class="home-link">
                 <a href="./home.html">Home</a>
             </div>
@@ -34,15 +25,26 @@
             <div class="login-button">
                 <button class="login-icon"><i class="fa fa-user"></i></button>
             </div>
+            <div class="accInfo">
+
+            </div>
         </div>
     </header>
+    <div class="sidebar"> 
+        <ul>
+            <li>Home</li>
+            <li>Hosts</li>
+        </ul>
+    </div> 
     <div class="main-body">
         <div class="search-bar">
             <input type="text" id="host-search-bar" placeholder="...">
-            <button></button>
+            <button class="search-enter">
+                <i class="fa fa-arrow-right"></i>
+            </button>
         </div>
         <div class="dashboard">
-             cluster of boxes/menus/graphs here showing some data 
+             <!-- cluster of boxes/menus/graphs here showing some data  -->
             <div class="widget server-list">
                 <table class="host-list">
                     <thead>

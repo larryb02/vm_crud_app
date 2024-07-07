@@ -1,15 +1,26 @@
 TODO (Not in any specific order):
-1. Create responsive buttons
-    - Menu Pane
-        - for now just create empty pane, will add items later
-    - Account Info button
-        - if signed in show a menu with basic info and a few buttons
-        - if signed out show a menu telling user to sign in
-2. Create Host View Page
-    2a. Also create a detailed hosts page
-        - idea is once on this page if user clicks on a host direct them to a detailed view of these hosts
+Home Page:
+- Add enter/search button to search bar
+- CSS THINGS:
+    - Navbar buttons
+    - Add an icon to "Home" Link
 In Progress:
 3. Dynamically render text for "Host" table 
     3a. add a limit to data generation (should only grab 'n' number of hosts)
     - (eventually will change to "All" tables)
+1. Create responsive buttons
+    - Menu Pane
+        - for now just create empty pane, will add items later
+            - just have to add items now
+        - (FIXED... I THINK? WE'LL SEE ;)FIX POSITIONING OF HEADER, AND MAIN-BODY CONTENT 
+            - REALLY JUST NEED TO REWRITE/RESTRUCTURE THIS SECTION
+    - Account Info button
+        - if signed in show a menu with basic info and a few buttons
+        - if signed out show a menu telling user to sign in
+
+2. Create Host View Page
+    2a. Also create a detailed hosts page
+        - idea is once on this page if user clicks on a host direct them to a detailed view of these hosts
+
+
 

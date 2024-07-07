@@ -1,8 +1,13 @@
+:root{
+    --navbar-height: 0px;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: block;
     font-family: Arial, sans-serif;
@@ -14,7 +19,8 @@ body {
     font-size: 20px;
     display: flex;
     /* border: 2px solid; */
-    border-color: red;
+    border-bottom: 1px #000000;
+    /* border-color: red; */
 }
 
 .right-side {
@@ -70,13 +76,13 @@ table thead th {
     width: 50%;
 }
 
-.sidebar{
+ .sidebar{
     position: absolute;
-    top: 0;
+    top: 33px; /* change this to a variable */
     left: 0;
     height: 100%;
-    width: 80px;
-    /* display: none; */
+    width: 0px;
+    display: none; 
     background-color: #12171e;
     color: #ffffff;
     
@@ -97,6 +103,15 @@ table thead th {
 .main-body{
     position: relative;
     top: 0;
-    left: 80px;
+    /* left: 80px; */
     width: calc(100% - 80px);
 }
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar button{
+    width: 50px;
+}
+

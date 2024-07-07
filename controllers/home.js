@@ -4,8 +4,6 @@ let data = ["Host1", "Host2", "Host3"];
 const menuButton = document.querySelector(".sidebar-button");
 const accInfoButton = document.querySelector(".login-button");
 
-console.log(menuButton);
-console.log(accInfoButton);
 menuButton.addEventListener("click", () => {
     //opens or closes a menu
     let sidebar = document.querySelector(".sidebar");
@@ -15,6 +13,8 @@ menuButton.addEventListener("click", () => {
 
 accInfoButton.addEventListener("click", () => {
     // alert("Account Info Button clicked!");
+    let accInfo = document.querySelector(".accInfo");
+    accInfo.classList.toggle("active");
 });
 //Handle Dashboard
 
@@ -42,5 +42,5 @@ function main(){
     renderTableCells();
 }
 
-// main();
+main();
 
