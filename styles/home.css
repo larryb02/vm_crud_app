@@ -1,8 +1,9 @@
-:root{
-    --navbar-height: 0px;
+:root {
+    --navbar-height: 33px;
+    /* meh figure this out later */
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +14,8 @@ body {
     font-family: Arial, sans-serif;
     /* border: 2px solid; */
     border-color: red;
+    height: 100%;
+    width: 100%;
 }
 
 .navbar {
@@ -21,6 +24,7 @@ body {
     /* border: 2px solid; */
     border-bottom: 1px #000000;
     /* border-color: red; */
+    /* height: 100px; */
 }
 
 .right-side {
@@ -37,16 +41,16 @@ body {
     /* margin: 0px 5px; */
 }
 
-.menu {
-    margin: 0px 5px;
+.sidebar-button {
+    width: 40px;
 }
 
 .home-link {
-    margin: 0px 5px;
+    margin: 0px 20px;
 }
 
 a:visited {
-    color: blue;
+    color: none;
 }
 
 .server-list {
@@ -58,10 +62,30 @@ a:visited {
     width: 50% */
 }
 
-table thead th {
+.host-list table,
+.host-list thead,
+.host-list th,
+.host-list tr {
     border-bottom: 1px solid #d1d1d1;
+    text-align: left;
+    font-weight: 400;
 }
 
+/* .host-list th, .host-list tr{
+    padding: 2px 10px 3px; 
+} */
+
+.host-list td, .host-list th{
+    padding: 2px 10px 3px;
+}
+.host-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-header{
+    width: 30%;
+}
 .search-bar {
     width: 40%;
 }
@@ -74,44 +98,62 @@ table thead th {
 
 .widget {
     width: 50%;
+    margin: 10px 25px;
 }
 
- .sidebar{
+.sidebar {
     position: absolute;
-    top: 33px; /* change this to a variable */
+    top: 33px;
+    /* change this to a variable */
     left: 0;
     height: 100%;
     width: 0px;
-    display: none; 
+    display: none;
     background-color: #12171e;
     color: #ffffff;
-    
+
 
 }
 
-.sidebar.active ~ .main-body{
+.sidebar.active~.main-body {
     left: 250px;
     width: calc(100% - 250px);
 
 }
 
-.sidebar.active{
+.sidebar.active {
     width: 250px;
     display: block;
 }
 
-.main-body{
+.main-body {
     position: relative;
     top: 0;
     /* left: 80px; */
     width: calc(100% - 80px);
 }
 
-.search-bar{
+.search-bar {
     display: flex;
+    margin-left: 25px;
 }
 
-.search-bar button{
+.search-bar button {
     width: 50px;
 }
 
+.login-icon {
+    width: 40px;
+    height: 25px;
+}
+
+.sidebar-item-container {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.sidebar-item-container a {
+    color: white;
+    text-decoration: none;
+}

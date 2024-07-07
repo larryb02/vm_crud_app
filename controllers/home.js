@@ -1,5 +1,5 @@
 //for testing purposes
-let data = ["Host1", "Host2", "Host3"];
+let data = [["Host1", "0.0.0.0", "Charles Barkley"], ["Host2", "0.0.0.0", "Steve Nash"], ["Host3", "0.0.0.0", "Bob Bobalot"]];
 //Handle Buttons
 const menuButton = document.querySelector(".sidebar-button");
 const accInfoButton = document.querySelector(".login-button");
@@ -8,7 +8,7 @@ menuButton.addEventListener("click", () => {
     //opens or closes a menu
     let sidebar = document.querySelector(".sidebar");
     sidebar.classList.toggle("active");
-    
+
 });
 
 accInfoButton.addEventListener("click", () => {
@@ -32,13 +32,17 @@ function renderTableCells() {
     let el = document.querySelector(".host-list tbody");
     for (const item of data) {
         let row = document.createElement("tr");
-        row.textContent = item;
         el.append(row);
+        for (const i of item) {
+            let data = document.createElement("td");
+            data.textContent = i;
+            row.append(data);
+        }
     }
 }
 //anything that needs to get loaded dynamically should happen here...
 //can probly make this asynchronous too, or find another way to handle it...
-function main(){
+function main() {
     renderTableCells();
 }
 
