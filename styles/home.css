@@ -174,7 +174,11 @@ body {
     height: 100%;
     display: block;
 }
-
+.sidebar-item-container p{
+    top: 50%;
+    transform: translateY(200%); /* idk fix later */
+    text-align: center;
+}
 .dashboard{
     margin: 0px 50px;
     height: 100%;

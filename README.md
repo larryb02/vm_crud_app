@@ -12,7 +12,7 @@ Since I am regularly working with lifecycle management software (VMWare VCenter,
     - account info page
 - Setup server
 ### 2. Backend
-- Controller/Model Logic
+- Routing
 - REST api
 - Setup database
 - Setup authentication logic
