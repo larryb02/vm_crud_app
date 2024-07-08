@@ -41,7 +41,7 @@
                 <div class="sidebar-item-container"> <!-- future proofing for when more items are added -->
                     <a href="./hosts.html">
                         <!-- icon here!!! -->
-                        Hosts
+                        <p>Hosts</p>
                     </a>
                 </div>
             </li>
@@ -49,36 +49,40 @@
                 <div class="sidebar-item-container"> <!-- future proofing for when more items are added -->
                     <a href="./settings.html">
                         <!-- icon here!!! -->
-                        Settings
+                        <p>Settings</p>
                     </a>
                 </div>
             </li>
         </ul>
     </div>
     <div class="main-body">
-        <h1 class="main-body-title">Overview</h1>
-        <div class="search-bar">
-            <input type="text" id="host-search-bar" placeholder="...">
-            <button class="search-enter">
-                <i class="fa fa-arrow-right"></i>
-            </button>
-        </div>
-        <div class="dashboard">
-            <!-- cluster of boxes/menus/graphs here showing some data  -->
-            <div class="widget server-list">
-                <h4 class="header">Hosts</h4>
-                <table class="host-list">
-                    <thead>
-                        <tr>
-                            <th class="table-header">Name</th>
-                            <th class="table-header">IP Address</th>
-                            <th class="table-header">Owner</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    </tbody>
-                </table>
+        <div class="content">
+            <section class="page-title">
+                <h1 class="main-body-title">Overview</h1>
+            </section>
+            <div class="search-bar">
+                <input type="text" id="host-search-bar" placeholder="...">
+                <button class="search-enter">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="dashboard">
+                <!-- cluster of boxes/menus/graphs here showing some data  -->
+                <div class="widget server-list">
+                    <h4 class="header">Hosts</h4>
+                    <table class="host-list">
+                        <thead>
+                            <tr>
+                                <th class="table-header">Name</th>
+                                <th class="table-header">IP Address</th>
+                                <th class="table-header">Owner</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
